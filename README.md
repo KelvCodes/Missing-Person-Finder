@@ -8,5 +8,5 @@ A **life-saving and interactive** platform designed to **help locate missing per
 -  💾 **Local Storage** – Saves reports locally, even after a refresh.
 -  📱 **Mobile Friendly** – Works smoothly across all devices.
 
- -
+ 
 ---
