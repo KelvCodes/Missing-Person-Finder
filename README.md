@@ -22,4 +22,5 @@ A **life-saving and interactive** platform designed to **help locate missing per
 ## 🚀 How to Use  
 1. **Open the App** – Load `index.html` in your browser. 🌐
 2. **Report a Missing Person** – Fill in details and submit. 📝
-3. **Search for Reports** – Instantly filter through the database. 🔍  
+3. **Search for Reports** – Instantly filter through the database. 🔍
+4.  **Toggle Dark Mode** – Switch themes for better readability. 🌙   
