@@ -10,3 +10,4 @@ A **life-saving and interactive** platform designed to **help locate missing per
 
  
 ---
+## ⚙️ Tech Stack 
