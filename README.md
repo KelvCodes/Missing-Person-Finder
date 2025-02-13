@@ -27,3 +27,4 @@ A **life-saving and interactive** platform designed to **help locate missing per
 5.  **Data Stays Saved** – Your reports persist using local storage. 💾
 
    ---
+   ## 🛠️ Installation
