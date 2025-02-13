@@ -20,3 +20,4 @@ A **life-saving and interactive** platform designed to **help locate missing per
 
 ---
 ## 🚀 How to Use  
+1. **Open the App** – Load `index.html` in your browser. 🌐 
