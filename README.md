@@ -3,3 +3,4 @@ A **life-saving and interactive** platform designed to **help locate missing per
 
 ---
 ## 🌟 Features
+- 📝 **Report Missing Persons** – Add details like name, age, last seen location, and a p
