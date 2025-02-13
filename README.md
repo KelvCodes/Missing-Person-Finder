@@ -19,3 +19,4 @@ A **life-saving and interactive** platform designed to **help locate missing per
 | ![Local Storage](https://img.shields.io/badge/LocalStorage-FFA500?style=for-the-badge&logo=database&logoColor=white) | Saves data without a database |
 
 ---
+## 🚀 How to Use  
