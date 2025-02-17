@@ -9,7 +9,9 @@ A **life-saving and interactive** platform designed to **help locate missing per
 -  📱 **Mobile Friendly** – Works smoothly across all devices.
 
   ---
+## 🎬 Live Demo 
 
+🔗 **[Try It Now](https://ai-powered-lost-and-found.netlify.app/)**  
  
 ---
 ## ⚙️ Tech Stack
