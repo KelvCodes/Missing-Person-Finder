@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FindThem | Missing Person Finder</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="hero">
+        <nav>
+            <div class="logo">Find<span>Them</span></div>
+            <ul class="nav-links">
+                <li><a href="#search">Search</a></li>
+                <li><a href="#featured">Featured Cases</a></li>
+                <li><a href="#report">Report</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+        <div class="hero-content">
+            <h1>Helping Families Reconnect</h1>
+            <p>Join our community to help find missing loved ones</p>
+            <a href="#search" class="cta-button">Search Now</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="search" class="search-section">
+            <div class="container">
+                <h2>Search Missing Persons</h2>
+                <div class="search-box">
+                    <input type="text" id="search-input" placeholder="Enter name, location, or other details...">
+                    <button id="search-button"><i class="fas fa-search"></i> Search</button>
+                </div>
+                <div class="filters">
+                    <select id="gender-filter">
+                        <option value="">Any Gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <select id="age-filter">
+                        <option value="">Any Age</option>
+                        <option value="0-12">0-12</option>
+                        <option value="13-17">13-17</option>
+                        <option value="18-25">18-25</option>
+                        <option value="26-40">26-40</option>
+                        <option value="41-65">41-65</option>
+                        <option value="65+">65+</option>
+                    </select>
+                    <input type="text" id="location-filter" placeholder="Location...">
+                </div>
+            </div>
+        </section>
+
+        <section id="results" class="results-section">
+            <div class="container">
+                <h2>Search Results</h2>
+                <div class="results-grid" id="results-container">
+                    <!-- Results will be populated here by JavaScript -->
+                </div>
+                <div class="no-results" id="no-results" style="display: none;">
+                    <i class="fas fa-user-slash"></i>
+                    <p>No matching results found. Try different search criteria.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="featured" class="featured-section">
+            <div class="container">
+                <h2>Featured Cases</h2>
+                <div class="featured-grid" id="featured-container">
+                    <!-- Featured cases will be populated here by JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <section id="report" class="report-section">
+            <div class="container">
+                <div class="report-container">
+                    <div class="report-info">
+                        <h2>Have Information?</h2>
+                        <p>If you have any information about a missing person or want to report someone missing, please fill out our form.</p>
+                        <div class="report-stats">
+                            <div class="stat">
+                                <h3>1,240+</h3>
+                                <p>Persons Found</p>
+                            </div>
+                            <div class="stat">
+                                <h3>98%</h3>
+                                <p>Success Rate</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="report-form">
+                        <h3>Report Sighting</h3>
+                        <form id="sighting-form">
+                            <div class="form-group">
+                                <input type="text" id="reporter-name" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="reporter-email" placeholder="Your Email" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" id="person-name" placeholder="Missing Person's Name">
+                            </div>
+                            <div class="form-group">
+                                <textarea id="sighting-details" placeholder="Details of sighting (location, time, description)" required></textarea>
+                            </div>
+                            <div class="form-group">
+                                <input type="file" id="sighting-photo" accept="image/*">
+                                <label for="sighting-photo"><i class="fas fa-camera"></i> Upload Photo</label>
+                            </div>
+                            <button type="submit" class="submit-button">Submit Report</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <div class="logo">Find<span>Them</span></div>
+                    <p>Dedicated to reuniting families and helping communities find their missing loved ones.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#search">Search</a></li>
+                        <li><a href="#featured">Featured Cases</a></li>
+                        <li><a href="#report">Report</a></li>
+                        <li><a href="#about">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-envelope"></i> help@findthem.org</p>
+                    <p><i class="fas fa-phone"></i> +233-244-4727-71</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Acrra<br>Ghana, University of Ghana</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 FindThem. All rights reserved.</p>
+                <div class="legal-links">
+                    <a href="https://github.com/KelvCodes">Privacy Policy</a>
+                    <a href="https://github.com/KelvCodes">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal" id="person-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-body" id="modal-body">
+                <!-- Modal content will be populated by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
