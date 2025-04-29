@@ -1,10 +1,4 @@
-
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
+ody {
     font-family: 'Poppins', sans-serif;
     line-height: 1.6;
     color: var(--dark-color);
