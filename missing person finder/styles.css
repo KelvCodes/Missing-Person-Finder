@@ -1,14 +1,5 @@
 x;
-    background-color: var(--accent-color);
-    transition: var(--transition);
-}
-
-.nav-links a:hover::after {
-    width: 100%;
-}
-
-.hamburger {
-    display: none;
+    bac
     cursor: pointer;
 }
 
