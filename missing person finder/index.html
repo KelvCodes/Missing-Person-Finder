@@ -1,1 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reunite | Missing Person Finder</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <i class="fas fa-search-location"></i>Reunite
+            </div>
+            <ul class="nav-links">
+                <li><a href="#search"><i class="fas fa-search"></i> Search</a></li>
+                <li><a href="#featured"><i class="fas fa-star"></i> Featured Cases</a></li>
+                <li><a href="#report"><i class="fas fa-flag"></i> Report</a></li>
+                <li><a href="#about"><i class="fas fa-info-circle"></i> About</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+        <div class="hero-content">
+            <h1>Bringing Missing Loved Ones Home</h1>
+            <p>Our community-powered platform helps families reconnect with their missing members through advanced search technology and crowdsourced information.</p>
+            <div class="hero-buttons">
+                <a href="#search" class="btn btn-primary"><i class="fas fa-search"></i> Search Now</a>
+                <a href="#report" class="btn btn-outline"><i class="fas fa-flag"></i> Report Case</a>
+            </div>
+        </div>
+    </header>
 
+    <section id="search" class="search-section">
+        <div class="container">
+            <h2 class="section-title">Search Missing Persons</h2>
+            <div class="search-container">
+                <div class="search-box">
+                    <input type="text" id="search-input" placeholder="Enter name, location, or other details...">
+                    <button id="search-button"><i class="fas fa-search"></i> Search</button>
+                </div>
+                <div class="filter-row">
+                    <div class="filter-group">
+                        <label for="gender-filter">Gender</label>
+                        <select id="gender-filter">
+                            <option value="">Any Gender</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="age-filter">Age Range</label>
+                        <select id="age-filter">
+                            <option value="">Any Age</option>
+                            <option value="0-12">0-12</option>
+                            <option value="13-17">13-17</option>
+                            <option value="18-25">18-25</option>
+                            <option value="26-40">26-40</option>
+                            <option value="41-65">41-65</option>
+                            <option value="65+">65+</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="location-filter">Last Seen Location</label>
+                        <input type="text" id="location-filter" placeholder="City, State, or Country">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="results" class="results-section">
+        <div class="container">
+            <div class="results-header">
+                <h2 class="section-title">Search Results</h2>
+                <div class="sort-options">
+                    <label for="sort-by">Sort by:</label>
+                    <select id="sort-by">
+                        <option value="recent">Most Recent</option>
+                        <option value="oldest">Oldest First</option>
+                        <option value="age">Age</option>
+                        <option value="location">Location</option>
+                    </select>
+                </div>
+            </div>
+            <div class="results-grid" id="results-container">
+                <!-- Results will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <section id="featured" class="featured-section">
+        <div class="container featured-container">
+            <h2 class="section-title">Urgent Cases</h2>
+            <p class="text-center mb-4">These cases require immediate attention. Please share any information you may have.</p>
+            <div class="featured-slider" id="featured-container">
+                <!-- Featured cases will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <section id="report" class="report-section">
+        <div class="container">
+            <div class="report-container">
+                <div class="report-info">
+                    <h2>Have You Seen Someone?</h2>
+                    <p>Your information could be the key to reuniting a family. Please provide as many details as possible to help us verify the sighting.</p>
+                    <div class="report-stats">
+                        <div class="stat">
+                            <h3>1,240+</h3>
+                            <p>Successful Reunions</p>
+                        </div>
+                        <div class="stat">
+                            <h3>92%</h3>
+                            <p>Verified Reports</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="report-form">
+                    <h3>Submit a Report</h3>
+                    <form id="sighting-form">
+                        <div class="form-group">
+                            <label for="reporter-name">Your Name</label>
+                            <input type="text" id="reporter-name" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="reporter-email">Your Email</label>
+                            <input type="email" id="reporter-email" placeholder="your@email.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="person-name">Missing Person's Name (if known)</label>
+                            <input type="text" id="person-name" placeholder="Leave blank if unknown">
+                        </div>
+                        <div class="form-group">
+                            <label for="sighting-details">Sighting Details</label>
+                            <textarea id="sighting-details" placeholder="When and where did you see this person? What were they wearing? Any other identifying features?" required></textarea>
+                        </div>
+                        <div class="form-group file-upload">
+                            <label>Upload Photo (if available)</label>
+                            <label class="file-upload-label" for="sighting-photo">
+                                <i class="fas fa-camera"></i> Choose File
+                                <span id="file-name">No file selected</span>
+                            </label>
+                            <input type="file" id="sighting-photo" accept="image/*">
+                        </div>
+                        <button type="submit" class="submit-button"><i class="fas fa-paper-plane"></i> Submit Report</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <div class="logo">
+                        <i class="fas fa-search-location"></i>Reunite
+                    </div>
+                    <p>Dedicated to reuniting families through technology and community effort.</p>
+                    <div class="social-links">
+                        <a href="https://github.com/KelvCodes"><i class="fab fa-github"></i></a>
+                        <a href="https://www.youtube.com/@TechTutor_Tv?sub_confirmation=1"><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.linkedin.com/in/kelvin-agyare-yeboah-6728a7301"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#search"><i class="fas fa-chevron-right"></i> Search Database</a></li>
+                        <li><a href="#featured"><i class="fas fa-chevron-right"></i> Urgent Cases</a></li>
+                        <li><a href="#report"><i class="fas fa-chevron-right"></i> Report Sighting</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Volunteer</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Donate</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-envelope"></i> help@findthem.org</p>
+                    <p><i class="fas fa-phone"></i> +233-244-4727-71</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Acrra<br>Ghana, University of Ghana</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Reunite. All rights reserved.</p>
+                <div class="legal-links">
+                    <a href="https://github.com/KelvCodes">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal" id="person-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-body" id="modal-body">
+                <!-- Modal content will be populated by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
