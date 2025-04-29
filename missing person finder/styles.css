@@ -1,13 +1,4 @@
-x;
-    bac
-    cursor: pointer;
-}
 
-.hamburger .line {
-    width: 25px;
-    height: 3px;
-    background-color: white;
-    margin: 5px;
     transition: var(--transition);
 }
 
