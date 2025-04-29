@@ -1,17 +1,4 @@
-
-.nav-links a {
-    color: white;
- a:hover {
-    color: var(--accent-color);
-}
-
-.nav-links a::after {
-    content: '';
-    position: absolute;
-    bottom: -5px;
-    left: 0;
-    width: 0;
-    height: 2px;
+x;
     background-color: var(--accent-color);
     transition: var(--transition);
 }
