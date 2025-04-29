@@ -1,12 +1,4 @@
-
-    transition: var(--transition);
-}
-
-.hero-content {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+ify-content: center;
     align-items: flex-start;
     padding: 2rem 0;
     max-width: 600px;
