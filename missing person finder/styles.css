@@ -1,13 +1,7 @@
 
 .nav-links a {
     color: white;
-    text-decoration: none;
-    font-weight: 500;
-    transition: var(--transition);
-    position: relative;
-}
-
-.nav-links a:hover {
+ a:hover {
     color: var(--accent-color);
 }
 
