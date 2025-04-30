@@ -1,13 +1,4 @@
-matchesAge = person.age >= min && person.age <= max;
-        
-            return matchesSearch && matchesGender && matchesAge && matchesLocation;
-        });
-
-        sortPersons();
-        renderResults();
-    }
-
-    // Sort persons based on current sort option
+rsons based on current sort option
     function sortPersons() {
         const { sortBy, filteredPersons } = currentState;
         
