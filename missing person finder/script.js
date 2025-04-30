@@ -1,9 +1,4 @@
-   lastSeen: "Miami, FL",
-            dateMissing: "April 10, 2023",
-            description: "Emily was last seen at her workplace, a café on Ocean Drive, where she worked as a manager. She clocked out at 5 PM but never arrived home. Her car was found parked near Lummus Park with her purse and phone still inside. Emily has dark brown hair, brown eyes, and a distinctive rose tattoo on her left wrist. She was wearing a white blouse and denim shorts when last seen. There was unusual activity on her bank account the day after her disappearance, but no further leads have been developed.",
-            image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80",
-            contact: "Miami-Dade PD: (305) 555-3456 | Crime Stoppers: (305) 555-TIPS",
-            featured: false,
+   lasfeatured: false,
             status: "Active",
             caseNumber: "MP-2023-0123"
         },
