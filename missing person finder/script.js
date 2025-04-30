@@ -1,12 +1,5 @@
 t ageFilter = document.getElementById('age-filter');
-    const locationFilter = document.getElementById('location-filter');
-    const sortBy = document.getElementById('sort-by');
-    const resultsContainer = document.getElementById('results-container');
-    const featuredContainer = document.getElementById('featured-container');
-    const reportForm = document.getElementById('sighting-form');
-    const fileUpload = document.getElementById('sighting-photo');
-    const fileName = document.getElementById('file-name');
-    const modal = document.getElementById('person-modal');
+l = document.getElementById('person-modal');
     const modalBody = document.getElementById('modal-body');
     const closeModal = document.querySelector('.close-modal');
 
