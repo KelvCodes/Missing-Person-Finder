@@ -1,12 +1,4 @@
-ription: "Olivia was last seen at a local park where she was playing with friends during a family barbecue. She was wearing a pink sundress with white flowers and carrying a stuffed white bunny named 'Snowball.' Olivia has long brown hair usually worn in braids and a gap between her front teeth. Witnesses reported seeing a suspicious vehicle in the area around the time of her disappearance. The FBI has joined the investigation and is offering a $25,000 reward for information leading to Olivia's safe return.",
-            image: "https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80",
-            contact: "Phoenix PD: (602) 555-5678 | FBI Tip Line: 1-800-CALL-FBI",
-            featured: true,
-            status: "Active",
-            caseNumber: "MP-2023-0567"
-        },
-        {
-            id: 6,
+     id: 6,
             name: "James Thompson",
             age: 68,
             gender: "male",
