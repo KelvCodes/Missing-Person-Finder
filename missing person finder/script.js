@@ -1,12 +1,4 @@
-     image: "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80",
-            contact: "Boston PD: (617) 555-6789 | Silver Alert: (888) 555-7890",
-            featured: false,
-    mburger = document.querySelector('.hamburger');
-    const navLinks = document.querySelector('.nav-links');
-    const searchInput = document.getElementById('search-input');
-    const searchButton = document.getElementById('search-button');
-    const genderFilter = document.getElementById('gender-filter');
-    const ageFilter = document.getElementById('age-filter');
+t ageFilter = document.getElementById('age-filter');
     const locationFilter = document.getElementById('location-filter');
     const sortBy = document.getElementById('sort-by');
     const resultsContainer = document.getElementById('results-container');
