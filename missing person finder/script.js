@@ -1,7 +1,5 @@
         description: "Sarah was last seen leaving her apartment building in the Lincoln Park area around 8:30 PM. She was wearing a blue Columbia jacket, black jeans, and white sneakers. Sarah has a small heart-shaped tattoo on her left wrist. Her family reports that she was in good spirits and there were no signs of distress before her disappearance. She was expected at work the next morning but never arrived. Local authorities have been investigating but have found no substantial leads.",
-            image: "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80",
-            contact: "Chicago PD: (312) 555-1234 | Family Hotline: (312) 555-5678",
-            featured: true,
+           tured: true,
             status: "Active",
             caseNumber: "MP-2023-0456"
         },
