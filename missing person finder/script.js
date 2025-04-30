@@ -1,13 +1,4 @@
-.classList.toggle('active');
-    }
-
-    // Perform search
-    function performSearch() {
-        currentState.searchTerm = searchInput.value.trim().toLowerCase();
-        filterPersons();
-    }
-
-    // Filter persons based on current state
+ilter persons based on current state
     function filterPersons() {
         const { searchTerm, filters, persons } = currentState;
         
