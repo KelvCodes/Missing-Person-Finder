@@ -1,10 +1,4 @@
-Results();
-        setupEventListeners();
-    }addEventListener('click', toggleMobileMenu);
-        
-        // Search functionality
-        searchButton.addEventListener('click', performSearch);
-        searchInput.addEventListener('keypress', function(e) {
+rchInput.addEventListener('keypress', function(e) {
             if (e.key === 'Enter') performSearch();
         });
 
