@@ -1,11 +1,4 @@
-  description: "David went for a hike in Rocky Mountain National Park and didn't return as scheduled. He was last seen at the Bear Lake trailhead around 9 AM. David is an experienced hiker but was unprepared for sudden weather changes. Search and rescue teams found some of his equipment along the trail but no sign of David. He was wearing a red Osprey backpack, hiking boots, and a green rain jacket. David has a distinctive scar above his right eyebrow from a childhood accident.",
-            image: "https://images.unsplash.com/photo-1552058544-f2b08422138a?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80",
-            contact: "National Park Service: (970) 555-1234 | Family: (303) 555-7890",
-            featured: false,
-            status: "Active",
-            caseNumber: "MP-2023-0345"
-        },
-        {
+
             id: 5,
             name: "Olivia Martinez",
             age: 8,
