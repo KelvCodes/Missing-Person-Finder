@@ -1,11 +1,5 @@
 matchesAge = person.age >= min && person.age <= max;
-                }
-            }
-            
-            // Check location filter
-            const matchesLocation = filters.location === '' || 
-                person.lastSeen.toLowerCase().includes(filters.location.toLowerCase());
-            
+        
             return matchesSearch && matchesGender && matchesAge && matchesLocation;
         });
 
