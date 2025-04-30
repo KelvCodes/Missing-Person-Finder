@@ -1,7 +1,3 @@
-t ageFilter = document.getElementById('age-filter');
-l = document.getElementById('person-modal');
-    const modalBody = document.getElementById('modal-body');
-    const closeModal = document.querySelector('.close-modal');
 
     // Current state
     let currentState = {
