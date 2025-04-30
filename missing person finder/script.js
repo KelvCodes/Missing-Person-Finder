@@ -1,9 +1,4 @@
-        
-       dateMissing: "June 22, 2023",
-            description: "Michael didn't return home from school on the afternoon of June 22nd. He was last seen by classmates at Washington High School around 3:15 PM. Michael is a junior with brown hair, brown eyes, and wears glasses. He was last seen wearing a gray hoodie with the school logo, black jeans, and black Vans sneakers. His phone last pinged near Golden Gate Park but has since been turned off. Michael has no history of running away and his disappearance is considered highly suspicious by authorities.",
-            image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80",
-            contact: "SFPD Missing Persons: (415) 555-2345 | Tip Line: (415) 555-7890",
-            featured: true,
+     featured: true,
             status: "Active",
             caseNumber: "MP-2023-0789"
         },
