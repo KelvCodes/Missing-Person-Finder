@@ -1,11 +1,4 @@
-
-            id: 5,
-            name: "Olivia Martinez",
-            age: 8,
-            gender: "female",
-            lastSeen: "Phoenix, AZ",
-            dateMissing: "July 18, 2023",
-            description: "Olivia was last seen at a local park where she was playing with friends during a family barbecue. She was wearing a pink sundress with white flowers and carrying a stuffed white bunny named 'Snowball.' Olivia has long brown hair usually worn in braids and a gap between her front teeth. Witnesses reported seeing a suspicious vehicle in the area around the time of her disappearance. The FBI has joined the investigation and is offering a $25,000 reward for information leading to Olivia's safe return.",
+ription: "Olivia was last seen at a local park where she was playing with friends during a family barbecue. She was wearing a pink sundress with white flowers and carrying a stuffed white bunny named 'Snowball.' Olivia has long brown hair usually worn in braids and a gap between her front teeth. Witnesses reported seeing a suspicious vehicle in the area around the time of her disappearance. The FBI has joined the investigation and is offering a $25,000 reward for information leading to Olivia's safe return.",
             image: "https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80",
             contact: "Phoenix PD: (602) 555-5678 | FBI Tip Line: 1-800-CALL-FBI",
             featured: true,
