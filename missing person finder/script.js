@@ -1,16 +1,5 @@
 rak;
-        }
-    }
-
-    // Render featured cases
-    function renderFeaturedCases() {
-        featuredContainer.innerHTML = '';
-        
-        currentState.featuredPersons.forEach(person => {
-            const featuredCard = document.createElement('div');
-            featuredCard.className = 'featured-card';
-            featuredCard.innerHTML = `
-                <div class="featured-img">
+    div class="featured-img">
                     <img src="${person.image}" alt="${person.name}">
                 </div>
                 <div class="featured-content">
