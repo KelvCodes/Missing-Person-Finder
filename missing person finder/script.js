@@ -1,11 +1,4 @@
-
-
-        locationFilter.addEventListener('input', function(e) {
-            currentState.filters.location = e.target.value;
-            filterPersons();
-        });
-
-        // Sort functionality
+// Sort functionality
         sortBy.addEventListener('change', function(e) {
             currentState.sortBy = e.target.value;
             sortPersons();
