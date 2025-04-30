@@ -1,7 +1,4 @@
-
-document.addEventListener('DOMContentLoaded', function() {
-    // Sample data for missing persons
-    const missingPersons = [
+st missingPersons = [
         {
             id: 1,
             name: "Sarah Johnson",
@@ -386,4 +383,5 @@ document.addEventListener('DOMContentLoaded', function() {
     // Initialize the app
     init();
 });
+
 
