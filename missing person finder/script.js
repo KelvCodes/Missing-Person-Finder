@@ -1,10 +1,6 @@
      featured: true,
             status: "Active",
-            caseNumber: "MP-2023-0789"
-        },
-        {
-            id: 3,
-            name: "Emily Rodriguez",
+    name: "Emily Rodriguez",
             age: 32,
             gender: "female",
             lastSeen: "Miami, FL",
