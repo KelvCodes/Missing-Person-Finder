@@ -1,13 +1,4 @@
-rsons based on current sort option
-    function sortPersons() {
-        const { sortBy, filteredPersons } = currentState;
-        
-        switch(sortBy) {
-            case 'recent':
-                filteredPersons.sort((a, b) => new Date(b.dateMissing) - new Date(a.dateMissing));
-                break;
-            case 'oldest':
-                filteredPersons.sort((a, b) => new Date(a.dateMissing) - new Date(b.dateMissing));
+redPersons.sort((a, b) => new Date(a.dateMissing) - new Date(b.dateMissing));
                 break;
             case 'age':
                 filteredPersons.sort((a, b) => a.age - b.age);
