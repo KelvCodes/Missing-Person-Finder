@@ -1,11 +1,4 @@
-     ,
-        sortBy: 'recent'
-    };
-
-    // Initialize the app
-    function init() {
-        renderFeaturedCases();
-        renderResults();
+Results();
         setupEventListeners();
     }
 
