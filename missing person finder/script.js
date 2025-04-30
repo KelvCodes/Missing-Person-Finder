@@ -1,7 +1,4 @@
-        description: "Sarah was last seen leaving her apartment building in the Lincoln Park area around 8:30 PM. She was wearing a blue Columbia jacket, black jeans, and white sneakers. Sarah has a small heart-shaped tattoo on her left wrist. Her family reports that she was in good spirits and there were no signs of distress before her disappearance. She was expected at work the next morning but never arrived. Local authorities have been investigating but have found no substantial leads.",
-           
-        {
-            id: 2,
+        
             name: "Michael Chen",
             age: 17,
             gender: "male",
