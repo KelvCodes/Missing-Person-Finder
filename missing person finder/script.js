@@ -1,9 +1,4 @@
-   lasfeatured: false,
-            status: "Active",
-            caseNumber: "MP-2023-0123"
-        },
-        {
-            id: 4,
+,
             name: "David Wilson",
             age: 45,
             gender: "male",
