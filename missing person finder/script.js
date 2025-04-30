@@ -1,9 +1,4 @@
-// Sort functionality
-        sortBy.addEventListener('change', function(e) {
-            currentState.sortBy = e.target.value;
-            sortPersons();
-            renderResults();
-        });
+ });
 
         // File upload display
         fileUpload.addEventListener('change', function() {
