@@ -1,15 +1,4 @@
-ilter persons based on current state
-    function filterPersons() {
-        const { searchTerm, filters, persons } = currentState;
-        
-        currentState.filteredPersons = persons.filter(person => {
-            // Check search term against name and description
-            const matchesSearch = searchTerm === '' || 
-                person.name.toLowerCase().includes(searchTerm) || 
-                person.description.toLowerCase().includes(searchTerm);
-            
-            // Check gender filter
-            const matchesGender = filters.gender === '' || person.gender === filters.gender;
+i matchesGender = filters.gender === '' || person.gender === filters.gender;
             
             // Check age filter
             let matchesAge = true;
