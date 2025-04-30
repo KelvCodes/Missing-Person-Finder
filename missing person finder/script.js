@@ -1,13 +1,4 @@
-bmitReport();
-        });
-
-        });
-    }
-
-    // Toggle mobile menu
-    function toggleMobileMenu() {
-        hamburger.classList.toggle('active');
-        navLinks.classList.toggle('active');
+.classList.toggle('active');
     }
 
     // Perform search
