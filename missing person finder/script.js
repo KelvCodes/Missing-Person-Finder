@@ -1,12 +1,6 @@
 bmitReport();
         });
 
-        // Modal close
-        closeModal.addEventListener('click', closePersonModal);
-        window.addEventListener('click', function(e) {
-            if (e.target === modal) {
-                closePersonModal();
-            }
         });
     }
 
