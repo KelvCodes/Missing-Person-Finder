@@ -1,8 +1,4 @@
-st missingPersons = [
-        {
-            id: 1,
-            name: "Sarah Johnson",
-            age: 24,
+    age: 24,
             gender: "female",
             lastSeen: "Chicago, IL",
             dateMissing: "May 15, 2023",
