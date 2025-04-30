@@ -1,9 +1,4 @@
-
-    // Current state
-    let currentState = {
-        persons: [...missingPersons],
-        filteredPersons: [...missingPersons],
-        featuredPersons: missingPersons.filter(person => person.featured),
+      featuredPersons: missingPersons.filter(person => person.featured),
         currentPerson: null,
         searchTerm: '',
         filters: {
