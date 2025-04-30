@@ -1,10 +1,5 @@
 
 
-        ageFilter.addEventListener('change', function(e) {
-            currentState.filters.ageRange = e.target.value;
-            filterPersons();
-        });
-
         locationFilter.addEventListener('input', function(e) {
             currentState.filters.location = e.target.value;
             filterPersons();
