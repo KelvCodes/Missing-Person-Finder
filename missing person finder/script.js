@@ -1,13 +1,4 @@
-i matchesGender = filters.gender === '' || person.gender === filters.gender;
-            
-            // Check age filter
-            let matchesAge = true;
-            if (filters.ageRange !== '') {
-                const [min, max] = filters.ageRange.split('-').map(Number);
-                if (filters.ageRange === '65+') {
-                    matchesAge = person.age >= 65;
-                } else {
-                    matchesAge = person.age >= min && person.age <= max;
+matchesAge = person.age >= min && person.age <= max;
                 }
             }
             
