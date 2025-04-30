@@ -1,11 +1,4 @@
-      featuredPersons: missingPersons.filter(person => person.featured),
-        currentPerson: null,
-        searchTerm: '',
-        filters: {
-            gender: '',
-            ageRange: '',
-            location: ''
-        },
+     ,
         sortBy: 'recent'
     };
 
