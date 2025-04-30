@@ -1,16 +1,4 @@
-rak;
-    div class="featured-img">
-                    <img src="${person.image}" alt="${person.name}">
-                </div>
-                <div class="featured-content">
-                    <h3>${person.name}</h3>
-                    <p>Last seen in ${person.lastSeen} on ${person.dateMissing}</p>
-                    <span class="featured-status">${person.status}</span>
-                </div>
-            `;
-            featuredCard.addEventListener('click', () => openPersonModal(person));
-            featuredContainer.appendChild(featuredCard);
-        });
+
     }
 
     // Render search results
