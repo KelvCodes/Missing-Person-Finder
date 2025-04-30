@@ -1,12 +1,4 @@
-rchInput.addEventListener('keypress', function(e) {
-            if (e.key === 'Enter') performSearch();
-        });
 
-        // Filter functionality
-        genderFilter.addEventListener('change', function(e) {
-            currentState.filters.gender = e.target.value;
-            filterPersons();
-        });
 
         ageFilter.addEventListener('change', function(e) {
             currentState.filters.ageRange = e.target.value;
