@@ -1,16 +1,5 @@
 
-    }
-
-    // Render search results
-    function renderResults() {
-        resultsContainer.innerHTML = '';
-        
-        if (currentState.filteredPersons.length === 0) {
-            resultsContainer.innerHTML = `
-                <div class="no-results">
-                    <i class="fas fa-user-slash"></i>
-                    <p>No matching results found. Try different search criteria.</p>
-                </div>
+    }iv>
             `;
             return;
         }
