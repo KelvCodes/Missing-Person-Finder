@@ -1,13 +1,4 @@
-redPersons.sort((a, b) => new Date(a.dateMissing) - new Date(b.dateMissing));
-                break;
-            case 'age':
-                filteredPersons.sort((a, b) => a.age - b.age);
-                break;
-            case 'location':
-                filteredPersons.sort((a, b) => a.lastSeen.localeCompare(b.lastSeen));
-                break;
-            default:
-                break;
+rak;
         }
     }
 
