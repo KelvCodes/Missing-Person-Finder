@@ -1,11 +1,6 @@
 Results();
         setupEventListeners();
-    }
-
-    // Set up event listeners
-    function setupEventListeners() {
-        // Mobile navigation
-        hamburger.addEventListener('click', toggleMobileMenu);
+    }addEventListener('click', toggleMobileMenu);
         
         // Search functionality
         searchButton.addEventListener('click', performSearch);
