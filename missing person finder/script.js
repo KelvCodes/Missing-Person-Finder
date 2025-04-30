@@ -1,12 +1,4 @@
-\  } else {
-                fileName.textContent = 'No file selected';
-            }
-        });
-
-        // Form submission
-        reportForm.addEventListener('submit', function(e) {
-            e.preventDefault();
-            submitReport();
+bmitReport();
         });
 
         // Modal close
